@@ -2,46 +2,54 @@
 
 <html>
 
-<head> 
-         <style> 
-                 table,th,td { 
-                         border:2px solid red; 
-                         border-collapse:collapse; 
-                 } 
-         </style> 
-         <link rel="stylesheet" href="styles.css"> 
- </head> 
-  
- <body> 
-         <!-- the entire body must be written by student --> 
-         <section> 
-     <table> 
-                 <tr> 
-                         <th align="center"><h1>Roll number</h1></th> 
-                         <th align="center"><h1>Names</h1></th> 
-                 </tr> 
-                 <tr> 
-                         <td align="center">101</td> 
-                         <td align="center">Ram</td> 
-                 </tr> 
-                 <tr> 
-                         <td align="center">102</td> 
-                         <td align="center">Shyam</td> 
-                 </tr> 
-         </table> 
-         </section> 
-                 <br> 
-       <section> 
-                 <head><h1>List of medias</h1></head> 
-                 <ol> 
-                         <li><img src="https://picsum.photos/id/123/200/300", alt="water" height="250"></img></li> 
-                         <li><video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls width="300px"></video></li> 
-                         <li><audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls></audio></li> 
-                 </ol> 
-	</section>
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<table border="1">
+        <thead>
+            <tr>
+                <th>Roll numbers</th>
+                <th>Names</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Sakibul</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Rahul</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Soumen</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>List of medias</h1>
+    <ol>
+        <li>
+            <img src="https://fastly.picsum.photos/id/123/200/300.jpg?hmac=uMA4z26tAYQnhW8_XlH0SoULB5z9s8tan-WCDkzbdMs" alt="water_drop">
+        </li>
+        <li>
+            <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" width="320" height="240" controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                 
+              Your browser does not support the video tag.
+              </video>
+        </li>
+        <li>
+            <audio controls>
+                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                
+              Your browser does not support the audio element.
+              </audio>
+        </li>
+    </ol>
     <script type="text/javascript" src="./script.js">
 </script>
 
